@@ -1,0 +1,67 @@
+/*========= Google Fonts =========*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #353836;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header{
+  padding: .5rem 1rem;
+  background-color: #1d1f1d;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.active {
+  background-color: #09c372;
+  color:  white;
+}
+
+
+#marca {
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+#marca a{
+  color: #09c372;
+}
+
+ul {
+  list-style: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ul a {
+  color: white;
+}
+
+ul li {
+  padding: 2rem;
+}
+
+ul li:hover {
+  padding-block: 10px;
+  background-color: #09c372;
+  text-align: center;
+  transform: scale(1.1);
+  transition: 0.25s;
+}
+ 
